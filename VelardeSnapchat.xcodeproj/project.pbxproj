@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1C888595806D16F081AA67 /* Pods_VelardeSnapchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F9B262C6389137B7220EE0 /* Pods_VelardeSnapchat.framework */; };
 		683B8E9E2A27A3EB00352F3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B8E9D2A27A3EB00352F3A /* AppDelegate.swift */; };
 		683B8EA02A27A3EB00352F3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B8E9F2A27A3EB00352F3A /* SceneDelegate.swift */; };
-		683B8EA22A27A3EB00352F3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B8EA12A27A3EB00352F3A /* ViewController.swift */; };
+		683B8EA22A27A3EB00352F3A /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683B8EA12A27A3EB00352F3A /* iniciarSesionViewController.swift */; };
 		683B8EA52A27A3EB00352F3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683B8EA32A27A3EB00352F3A /* Main.storyboard */; };
 		683B8EA72A27A3ED00352F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 683B8EA62A27A3ED00352F3A /* Assets.xcassets */; };
 		683B8EAA2A27A3ED00352F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683B8EA82A27A3ED00352F3A /* LaunchScreen.storyboard */; };
+		683B8EB22A27A53800352F3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 683B8EB12A27A53800352F3A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11A3E2013AE625FC1FEF7E6F /* Pods-VelardeSnapchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VelardeSnapchat.release.xcconfig"; path = "Target Support Files/Pods-VelardeSnapchat/Pods-VelardeSnapchat.release.xcconfig"; sourceTree = "<group>"; };
+		642DB161085D154401EED8D7 /* Pods-VelardeSnapchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VelardeSnapchat.debug.xcconfig"; path = "Target Support Files/Pods-VelardeSnapchat/Pods-VelardeSnapchat.debug.xcconfig"; sourceTree = "<group>"; };
 		683B8E9A2A27A3EB00352F3A /* VelardeSnapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VelardeSnapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		683B8E9D2A27A3EB00352F3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		683B8E9F2A27A3EB00352F3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		683B8EA12A27A3EB00352F3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		683B8EA12A27A3EB00352F3A /* iniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iniciarSesionViewController.swift; sourceTree = "<group>"; };
 		683B8EA42A27A3EB00352F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		683B8EA62A27A3ED00352F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		683B8EA92A27A3ED00352F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		683B8EAB2A27A3ED00352F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683B8EB12A27A53800352F3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C1F9B262C6389137B7220EE0 /* Pods_VelardeSnapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VelardeSnapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1C888595806D16F081AA67 /* Pods_VelardeSnapchat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		523BCC890C45462380CF9D38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				642DB161085D154401EED8D7 /* Pods-VelardeSnapchat.debug.xcconfig */,
+				11A3E2013AE625FC1FEF7E6F /* Pods-VelardeSnapchat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		54C1802445FED0246F026A18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1F9B262C6389137B7220EE0 /* Pods_VelardeSnapchat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		683B8E912A27A3EB00352F3A = {
 			isa = PBXGroup;
 			children = (
 				683B8E9C2A27A3EB00352F3A /* VelardeSnapchat */,
 				683B8E9B2A27A3EB00352F3A /* Products */,
+				523BCC890C45462380CF9D38 /* Pods */,
+				54C1802445FED0246F026A18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +84,12 @@
 			children = (
 				683B8E9D2A27A3EB00352F3A /* AppDelegate.swift */,
 				683B8E9F2A27A3EB00352F3A /* SceneDelegate.swift */,
-				683B8EA12A27A3EB00352F3A /* ViewController.swift */,
+				683B8EA12A27A3EB00352F3A /* iniciarSesionViewController.swift */,
 				683B8EA32A27A3EB00352F3A /* Main.storyboard */,
 				683B8EA62A27A3ED00352F3A /* Assets.xcassets */,
 				683B8EA82A27A3ED00352F3A /* LaunchScreen.storyboard */,
 				683B8EAB2A27A3ED00352F3A /* Info.plist */,
+				683B8EB12A27A53800352F3A /* GoogleService-Info.plist */,
 			);
 			path = VelardeSnapchat;
 			sourceTree = "<group>";
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 683B8EAE2A27A3ED00352F3A /* Build configuration list for PBXNativeTarget "VelardeSnapchat" */;
 			buildPhases = (
+				831B8F2DF882BE688C8DEE72 /* [CP] Check Pods Manifest.lock */,
 				683B8E962A27A3EB00352F3A /* Sources */,
 				683B8E972A27A3EB00352F3A /* Frameworks */,
 				683B8E982A27A3EB00352F3A /* Resources */,
+				36F267174BBE714A72CDA873 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +156,61 @@
 			files = (
 				683B8EAA2A27A3ED00352F3A /* LaunchScreen.storyboard in Resources */,
 				683B8EA72A27A3ED00352F3A /* Assets.xcassets in Resources */,
+				683B8EB22A27A53800352F3A /* GoogleService-Info.plist in Resources */,
 				683B8EA52A27A3EB00352F3A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36F267174BBE714A72CDA873 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VelardeSnapchat/Pods-VelardeSnapchat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VelardeSnapchat/Pods-VelardeSnapchat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VelardeSnapchat/Pods-VelardeSnapchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		831B8F2DF882BE688C8DEE72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VelardeSnapchat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		683B8E962A27A3EB00352F3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				683B8EA22A27A3EB00352F3A /* ViewController.swift in Sources */,
+				683B8EA22A27A3EB00352F3A /* iniciarSesionViewController.swift in Sources */,
 				683B8E9E2A27A3EB00352F3A /* AppDelegate.swift in Sources */,
 				683B8EA02A27A3EB00352F3A /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +354,7 @@
 		};
 		683B8EAF2A27A3ED00352F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 642DB161085D154401EED8D7 /* Pods-VelardeSnapchat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +382,7 @@
 		};
 		683B8EB02A27A3ED00352F3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11A3E2013AE625FC1FEF7E6F /* Pods-VelardeSnapchat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
